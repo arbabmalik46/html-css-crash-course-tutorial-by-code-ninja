@@ -28,3 +28,8 @@ li{
     /* text-shadow: 2px 3px red;  */
     text-shadow: 2px 2px #68cf13;
 }
+a{
+ font-style: normal;   
+ text-decoration: none;
+ color: slategray;
+}
