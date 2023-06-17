@@ -1,0 +1,35 @@
+h1{
+    color: orange;
+    background-color: aliceblue;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace; /* use web safe fonts */
+    text-align: center;
+}
+p{
+    color: slategray;
+    text-align: right;
+    line-height: 30px;
+    text-indent: 0%;
+    letter-spacing: 3px;
+    column-count: 2;
+    column-gap: 60px;
+}
+ul{
+    /* border-style: solid;
+    border-width: 4px;
+    border-color: blueviolet; */
+    /* border : solid 4px salmon; */
+    border-bottom: dotted sandybrown 5px;
+    border-left: dashed red 4px;
+}
+li{
+    list-style-type: upper-alpha;
+    /* text-shadow: 2px 3px red;  */
+    text-shadow: 2px 2px #68cf13;
+}
+a{
+ font-style: normal;   
+ text-decoration: none;
+ color: slategray;
+}
