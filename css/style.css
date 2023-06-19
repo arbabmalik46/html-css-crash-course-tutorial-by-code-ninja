@@ -1,0 +1,48 @@
+/* p{    
+    color: azure;
+}
+p.error{
+    color: red;
+}
+p.success{
+    color: green;
+}
+p.feedback.success{ 
+    margin: 20px;
+    border:2px solid grey;
+}
+#content{   
+    border: 2px dashed pink;
+    padding: 20px;
+    background-color: aqua;
+}
+div#content{
+    border: 2px dashed pink;
+    padding: 20px;
+    background-color: aqua;
+}  */
+
+/* div .error{
+    color: red;
+} */
+/* a[href]
+{
+    color: yellowgreen;
+} */
+/* a[href="www.google.com"]
+{
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+div{
+    margin: 6px;
+    border: 2px dotted black;
+    color: grey;
+}
+p{
+    margin: inherit;
+    border: inherit;
+}
