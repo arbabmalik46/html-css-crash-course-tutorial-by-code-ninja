@@ -61,7 +61,7 @@ nav li a {
     color: #4b4b4b;
 }
 nav li a.join{
-    color: #f63232;
+    color: green;
 }
 main{
     max-width: 100%;
@@ -114,4 +114,28 @@ footer{
     color: white;
     text-align: center;
     padding: 10px ;
+}
+
+/* pseodo classes */
+nav li a:hover{
+    text-decoration: underline;
+    background-color: pink;
+    padding: 3px;
+}
+
+/* .images li img:hover{
+    transform: scale(1.1);
+    transition:.5s ease;
+    cursor: pointer;
+} */
+.images li:hover{
+    position: relative;
+    top: -4px;
+}
+form input:focus{
+    border: 4px dashed #4b4b4b;
+    outline:none;
+}
+form input:valid{
+    border: 4px solid #71d300;
 }

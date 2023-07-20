@@ -61,3 +61,25 @@ div {<br>
   top: 100px;<br>
 }<br>
 Sticky positioning can be useful for creating headers, footers, and other elements that should always be visible at the top or bottom of the screen, even when the user scrolls the page<br>
+
+## Pseudo Classes & Elements
+add : and class name like `hover`,`focus`
+hover: is used when you hover mouse on some tag or element. It can be applied to any HTML elements, including links, buttons etc., but not all of them support it.<|im_sep|>
+```css
+input[type="text"]:focus {
+  border-color: red;
+  }
+focus: is used when you click on some tag
+.class_name::focus{ /* this will add content after the element */ 
+border:4px solid green";
+display:block;}
+valide: is used when a condition is true and you want to show that condition is true
+
+.class_name::after{ /* this will add content after the element */ 
+content:"hello";
+display:block;}
+/* ::before adds a pseudoelement before an element, while ::after does it after.*/
+a:visited{} //this applies to visited links only
+p::-moz-selection {}//This selects all p elements with Mozilla Firefox selection styles applied (e
+```
+Pseudo classes are added using `:`, for example `.classname`:active`. This means that if
