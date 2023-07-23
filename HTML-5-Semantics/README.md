@@ -83,3 +83,14 @@ a:visited{} //this applies to visited links only
 p::-moz-selection {}//This selects all p elements with Mozilla Firefox selection styles applied (e
 ```
 Pseudo classes are added using `:`, for example `.classname`:active`. This means that if
+the user clicks or taps inside of any HTML element with the classname "classname", then its active
+state should be triggered by adding the ":active" suffix at the end of the selector.<|im
+sep|>
+### psuedo elements
+Add double colon (::) in front of them
+```css
+h2::first-letter {/*selects first letter*/
+font-size:3em; color:#f90; font-weight:bold;}
+ul li::marker {/*adds marker symbol as bullet point*/
+list-style-image:url('bullet.png'); margin-left:-5%; width:.
+8rem;}
